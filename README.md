@@ -86,4 +86,5 @@ $ cd single-spa-react-app-root
 $ yarn
 $ yarn build-all
 $ yarn start-all
+$ navigate to http://localhost:9000/
 ```
