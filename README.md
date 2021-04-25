@@ -80,8 +80,8 @@ Organization name -- **@Firefly** -- and packages name -- **firefly-new-package*
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/ogzhanolguncu/single-spa-react.git
-$ cd single-spa
+$ git clone https://github.com/ogzhanolguncu/single-spa-react-app.git
+$ cd single-spa-react-app
 $ cd single-spa-react-app-root
 $ yarn
 $ yarn start-all
