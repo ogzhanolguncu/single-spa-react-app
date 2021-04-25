@@ -1,9 +1,21 @@
 ## Table of Contents
 
-1.  [Purpose of the project](#purpose-of-the-project)
-2.  [Running Locally](#running-locally)
+1.  [Running Locally](#running-locally)
+2.  [Purpose of the project](#purpose-of-the-project)
 3.  [Adding new packages](#adding-new-packages)
 4.  [Root Project](#what-is-hoisting)
+
+## Running Locally
+
+```bash
+$ git clone https://github.com/ogzhanolguncu/single-spa-react-app.git
+$ cd single-spa-react-app
+$ cd single-spa-react-app-root
+$ yarn
+$ yarn build-all
+$ yarn start-all
+$ navigate to http://localhost:9000/episodes
+```
 
 ## Purpose of the project
 
@@ -76,15 +88,3 @@ Then, add them into your **importmap**:
 ```
 
 Organization name -- **@Firefly** -- and packages name -- **firefly-new-package** -- carries great importance, if you mess one of them project will complain.
-
-## Running Locally
-
-```bash
-$ git clone https://github.com/ogzhanolguncu/single-spa-react-app.git
-$ cd single-spa-react-app
-$ cd single-spa-react-app-root
-$ yarn
-$ yarn build-all
-$ yarn start-all
-$ navigate to http://localhost:9000/
-```

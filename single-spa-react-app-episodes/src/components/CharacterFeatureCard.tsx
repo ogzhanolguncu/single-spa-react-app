@@ -28,9 +28,9 @@ const CharacterFeatureCard = ({ character }: { character: string }) => {
           alignItems="center"
         >
           <LazyLoadImage
-            alt={characterData?.name}
+            alt={characterData.name}
             width="100%"
-            src={characterData?.image}
+            src={characterData.image}
             effect="blur"
           />
           <Box>
